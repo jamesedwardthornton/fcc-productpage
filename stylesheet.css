@@ -1,0 +1,73 @@
+#header {
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr 1fr;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#header-img {
+    max-width: 20%;
+    grid-column-start: 1;
+}
+#nav-bar {
+    grid-column-end: 3;
+    margin-top: 30px;
+}
+#services {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 3fr 3fr 3fr;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#surveys-img {
+    margin-right: 50px;
+    max-width: 20%;
+    justify-self: right;
+}
+#surveys-div {
+    margin-top: 10px;
+    line-height: 0.75;
+    width: 600px;
+}
+#surveys {
+    font-weight: bolder;
+    font-size: 20px;
+}
+#enhancement-img {
+    margin-right: 50px;
+    max-width: 20%;
+    justify-self: right;
+}
+#enhancement-div {
+    margin-top: 15px;
+    line-height: 0.75;
+    width: 600px;
+}
+#enhancement {
+    font-weight: bolder;
+    font-size: 20px;
+}
+#licence-img {
+    margin-right: 50px;
+    max-width: 20%;
+    justify-self: right;
+}
+#licences-div {
+    margin-top: 30px;
+    line-height: 0.75;
+    width: 600px;
+}
+#licences {
+    font-weight: bolder;
+    font-size: 20px;
+}
+#email-form {
+    
+}
+#description {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#email {
+    margin-right: 40%;
+    margin-left: 30%
+}
